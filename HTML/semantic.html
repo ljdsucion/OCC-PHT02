@@ -1,0 +1,125 @@
+<!-- 
+    Semantic HTML -- gives meaning to our code
+ -->
+<!DOCTYPE html>
+
+<html>
+    <body>
+
+
+        <header>
+            <h1>Welcome to our Website!</h1>
+        
+            <nav>
+              <ul>
+                <li><a href="https://www.example.com"> Home </a></li>
+                <li><a href="#"> About Us </a></li>
+                <li><a href="#"> Service </a></li>
+                <li><a href="#"> Contact </a></li>
+              </ul>
+            </nav>
+          </header>
+    
+        <main>
+            <section>
+              <h2>About Us</h2>
+              <p>
+                We are a company dedicated to providing high quality products to our
+                customers.
+              </p>
+            </section>
+      
+            <section>
+              <h2>Services</h2>
+              <ul>
+                <li>Product Sales</li>
+                <li>Consultation</li>
+                <li>Support</li>
+              </ul>
+            </section>
+        </main>
+
+
+        <!-- Tables  -->
+    <table border="4">
+        <thead>
+          <!-- Table Head -->
+          <tr>
+            <!-- Table Row -->
+            <th>Name</th>
+            <!-- table header-->
+            <th colspan="2">Details</th>
+          </tr>
+        </thead>
+  
+        <tbody>
+          <!-- Table Body -->
+          <tr>
+            <td rowspan="2">John</td>
+            <!-- table data -->
+            <td rowspan="2">45 y/o</td>
+            <td>New York</td>
+          </tr>
+  
+          <tr>
+            <td>Philippines</td>
+          </tr>
+  
+          <tr>
+            <td>Joseph</td>
+            <td>25 y/o</td>
+            <td>Vancouver</td>
+          </tr>
+        </tbody>
+  
+        <tfoot>
+          <!-- Table Footer -->
+          <tr>
+            <td colspan="3">Total : 2 people</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <br />
+
+      <!-- Adding images using image url -->
+    <img
+    src="https://i.pinimg.com/736x/47/1c/72/471c725811d087e63a01d509adf19149.jpg"
+    alt="Alternative Text from the Image. Image is from the web."
+    height="200px"
+    width="300px"
+  />
+
+  <br />
+  <!-- Adding an image from local folder -->
+  <img
+    src="images-2.jpeg"
+    alt="Image is from the local folder."
+    height="200px"
+    width="300px"
+  />
+
+  <br />
+  <img
+    src="./images/image3.avif"
+    alt="Image is saved locally, in another folder, named 'images'. "
+    height="200px"
+    width="200px"
+  />
+
+  <br />
+  
+
+
+        <aside>
+            <h4>Latest News</h4>
+            <p>Check out out new product launch!</p>
+          </aside>
+      
+          <footer>
+            <p>&copy; 2024 Company Name. All rights reserved.</p>
+          </footer>
+
+
+    </body>
+</html>
