@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.bg {
+    background-color: blanchedalmond;
+    /* gradient background */
+    background: rgb(223,209,134);
+    background: linear-gradient(221deg, rgba(223,209,134,1) 0%, rgba(230,155,75,1) 38%, rgba(226,233,132,1) 100%);
+    /* background-image: url('sample.jpg'); */
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;   
+    background-attachment: fixed;
+    /* background: bg-color || bg-image || bg-posiition || bg-size || bg-repeat || bg-attachment 
+    background: aqua url('sample.jpg') center cover no-repeat fixed; */
+}
+.font-sample {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: teal;
+    color: white;
+}
+.text-sample {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+#spacing-sample {
+    letter-spacing: 5px;
+    line-height: 5;
+    background-color: palegoldenrod;
+    text-indent: 50px;
+}
+/* text-shadow: 
+    x-coordinate ||
+    y-coordinate ||
+    blur radius ||
+    color of the shadow
+*/
+#shadow-sample {
+    text-shadow: 10px -5px 10px #bf44f3;
+    font-size: 30px;
+}
+.box-model {
+    background-color: lavenderblush;
+    height: 100px;
+    width: 80px;
+    padding: 20px 10px 5px 18px;
+    padding-bottom: 15px;
+    border-color: crimson;
+    border-width: 5px;
+    border-style: dotted;
+    border: 10px inset orange;
+    border-radius: 50px;
+    border-top: 3px solid purple;
+    border-right: 5px dashed blue;
+    border-bottom: 8px dotted green;
+    border-left: 8px double orange;
+    margin: 5px 10px 30px 50px;
+    margin-left: 80px;
+}
+/* 
+                 == MARGIN & PADDING ==
+        1 value : applied to all 4 sides
+        2 value : top and bottom side || right and left side
+        3 value : top side || left and right side || bottom side
+        4 value : top side || right side || bottom side || left side 
+*/
